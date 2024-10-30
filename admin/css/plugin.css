@@ -1,0 +1,448 @@
+.ajax-domain-img {
+	display: none;
+}
+.error {
+	color: red;
+}
+.login div.error a {
+	display: none;
+}
+div.success {
+	color: green;
+}
+.lazy_sign_in_login-wrap {
+	background: #fff;
+}
+.lazy_sign_in_login-wrap * {
+	outline: none !important;
+	outline: 0 !important;
+}
+.lazy_sign_in_login-header {
+	background: #efefef;
+	padding: 50px 40px 40px 40px;
+}
+.lazy_sign_in_login-logo {
+	padding: 50px 40px 40px 40px;
+}
+.lazy_sign_in_login-logo img {
+	width: 100%;
+	height: auto;
+}
+.lazy_sign_in_login-tabs {
+}
+.lazy_sign_in_login-sidebar {
+	width: 340px;
+	float: left;
+	height: calc(100vh - 40px);
+	max-height: calc(100vh - 40px);
+	overflow-y: auto;
+	min-height: 500px;
+	background: url(../../images/lazy_sign_in_login-sidebar-bg.png) right top repeat-y #efefef;
+	padding-top: 20px;
+}
+.lazy_sign_in_login-content {
+	width: calc(100% - 340px);
+	float: left;
+	padding: 0 15px;
+	height: calc(100vh - 40px);
+	max-height: calc(100vh - 40px);
+	min-height: 500px;
+	overflow-y: auto;
+}
+.lazy_sign_in_login-sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+.lazy_sign_in_login-sidebar ul li {
+	float: none;
+	background: url(../../images/lazy_sign_in_login-sidebar-line.png) right bottom repeat-x;
+	padding: 1px 0;
+}
+.lazy_sign_in_login-sidebar ul li a {
+	display: block;
+	font-size: 14px;
+	color: #777777;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+	border: 0;
+	line-height: 20px;
+	padding: 22px 0 22px 50px;
+	line-height: 20px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.lazy_sign_in_login-sidebar ul li a i {
+	display: inline-block;
+	font-size: 17px;
+	width: 20px;
+	line-height: 20px;
+	margin-right: 10px;
+	text-align: center;
+}
+.lazy_sign_in_login-sidebar .nav > li > a:hover, .lazy_sign_in_login-sidebar .nav > li > a:focus {
+	background: none;
+	-webkit-box-shadow: 0px 0px 0px #000000;
+	-moz-box-shadow: 0px 0px 0px #000000;
+	box-shadow: 0px 0px 0px #000000;
+}
+.lazy_sign_in_login-sidebar .nav > li > a:hover {
+	color: #ff5f00;
+}
+.lazy_sign_in_login-sidebar .nav-tabs > li.active > a, .lazy_sign_in_login-sidebar .nav-tabs > li.active > a:hover, .lazy_sign_in_login-sidebar .nav-tabs > li.active > a:focus {
+	color: #ff5f00;
+	background-color: rgba(255,255,255,0) !important;
+	background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), #fff 85%);
+	background-image: -moz-linear-gradient(left, rgba(255,255,255,0), #fff 85%);
+	background-image: -o-linear-gradient(left, rgba(255,255,255,0), #fff 85%);
+	background-image: -ms-linear-gradient(left, rgba(255,255,255,0), #fff 85%);
+	background-image: linear-gradient(to right, rgba(255,255,255,0), #fff 85%);
+	border: 0;
+}
+body.toplevel_page_lazy_sign_in_options .update-nag {
+	display: none;
+}
+body.toplevel_page_lazy_sign_in_options #wpcontent {
+	padding-left: 0;
+}
+.lazy_sign_in_login-content-form {
+	width: 100%;
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.lazy_sign_in_login-content-form h2 {
+	position: relative;
+	padding-bottom: 15px;
+	margin-bottom: 40px;
+	font-size: 22px;
+	color: #222222;
+	text-align: center;
+}
+.lazy_sign_in_login-content-form h2:after {
+	content: "";
+	width: 44px;
+	height: 2px;
+	background: #e6e6e6;
+	position: absolute;
+	left: 50%;
+	margin-left: -22px;
+	bottom: 0;
+}
+.lazy_sign_in_login-content-form .input-group {
+	position: relative;
+	display: block;
+	margin-bottom: 30px;
+}
+.lazy_sign_in_login-content-form input:focus .lazy_sign_in_login-content-form select:focus {
+	-webkit-box-shadow: 0px 0px 0px #000000;
+	-moz-box-shadow: 0px 0px 0px #000000;
+	box-shadow: 0px 0px 0px #000000;
+	border-bottom: 2px solid #fd600e !important;
+}
+.lazy_sign_in_login-content-form select {
+	width: 100%;
+	height: 40px;
+	border: 0;
+	border-bottom: #e9e9e9 solid 2px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.lazy_sign_in_login-content-form .password-note {
+	display: block;
+	clear: both;
+	font-size: 14px;
+	color: #222;
+	line-height: 22px;
+	padding: 0 15px;
+	position: relative;
+	top: -20px;
+}
+.lazy_sign_in_login-content-form label {
+	font-weight: 400;
+}
+.lazy_sign_in_login-content-form label input[type="checkbox"] {
+	margin-right: 10px;
+	float: left;
+	width: 22px;
+	height: 22px;
+}
+.add-new-text-field-wrap {
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+	box-shadow: 0 1px 3px rgba(0,0,0,.15);
+	border: solid 1px #dedede;
+	padding: 25px 20px;
+	margin-bottom: 30px;
+}
+.add-new-text-field-wrap h3 {
+	font-size: 17px;
+	color: #424242;
+	font-weight: 500;
+	padding: 0;
+	margin: 0 0 15px 0;
+	text-transform: uppercase;
+}
+.add-new-text-field-wrap ul li {
+	padding: 25px 20px;
+	background: #f7f7f7;
+	border: #dedede solid 1px;
+	position: relative;
+}
+.add-new-text-field-wrap ul li table {
+	border-collapse: collapse;
+}
+.add-new-text-field-wrap ul li table tr th {
+	border: #dedede solid 1px;
+	background: #fff;
+	padding: 10px 15px;
+	font-size: 13px;
+	color: #5b5b5b;
+	width: 40%;
+	font-weight: 400;
+}
+.add-new-text-field-wrap ul li table tr td {
+	border: #dedede solid 1px;
+	background: #fff;
+	padding: 10px 15px;
+	font-size: 15px;
+	color: #1f1f1f;
+	width: 60%;
+}
+.add-new-text-field-extra {
+	padding: 30px 20px 0 20px;
+	border: #dedede solid 1px;
+}
+.add-new-text-field-extra-btn {
+	text-align: right;
+}
+.add-new-text-field-extra-btn a {
+	font-size: 15px;
+	color: #888888;
+	text-transform: uppercase;
+	line-height: 23px;
+	font-weight: 700;
+	padding: 10px 20px;
+	border: #c1c1c1 solid 2px;
+	display: inline-block;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	margin-top: 20px;
+}
+.add-new-text-field-extra-btn a:focus {
+	outline: none !important;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.add-new-text-field-extra-btn a:hover {
+	background: #c1c1c1;
+	color: #fff;
+}
+.remove-icon {
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	width: 18px;
+	height: 18px;
+	background: #fd600e;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.remove-icon a {
+	display: block;
+}
+.remove-icon i {
+	width: 18px;
+	height: 18px;
+	line-height: 17px;
+	font-size: 12px;
+	color: #fff;
+	display: block;
+	text-align: center;
+}
+.remove-icon:hover {
+	background: #e36009;
+}
+.lazy_sign_in_login-content-form input.save-setting-btn {
+	height: 46px;
+	background: #fd600e;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 0 20px;
+	float: right;
+	border: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.lazy_sign_in_login-content-form input.save-setting-btn:hover {
+	background: #e36009;
+}
+.logo-large {
+	display: block;
+}
+.logo-sm {
+	display: none;
+}
+.lazy_sign_in_login-content-form input {
+	background:none;
+	border:0;
+	border-bottom: solid 2px #e9e9e9;
+	color: #1f1f1f;
+	padding: 15px 0;
+	font-size: 18px;
+	width: 100%;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+.lazy_sign_in_login-content-form input:focus, .lazy_sign_in_login-content-form input:active {
+	outline: none;
+}
+.lazy_sign_in_login-content-form input[type="submit"]:active {
+	color: white;
+	background: #e9e9e9;
+}
+.lazy_sign_in_login-content-form .input-group {
+	display: block;
+	position: relative;
+}
+.lazy_sign_in_login-content-form .input-group label {
+	padding-top: 9px;
+}
+.input-group.floating label {
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-size: 16px;
+	color: #6c6c6c;
+	pointer-events: none;
+	padding-top: 0;
+	-webkit-transition: all 0.15s ease-out 0s;
+	transition: all 0.15s ease-out 0s;
+}
+.input-group.floating input:focus + label, .input-group.floating input.has-value + label {
+	top: -10px;
+	font-size: 12px;
+	color: #aaa;
+}
+.lazy_sign_in_login-content-form input:focus, .lazy_sign_in_login-content-form textarea:focus {
+	border:0;
+	border-bottom: solid 2px #fd600e;
+}
+.lazy_sign_in_login-content-form input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	border: #e9e9e9 solid 2px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+.lazy_sign_in_login-content-form input[type=checkbox]:checked {
+	border: #fd600e solid 2px;
+}
+.lazy_sign_in_login-content-form input[type=checkbox]:checked:before {
+	color: #fd600e !important;
+	width:20px !important;
+	margin-left:-3px !important;
+}
+a.remove_field {
+	margin-bottom: 15px;
+}
+
+.lazy_sign_in_login-content-form input:-webkit-autofill{
+	background:none !important;
+}
+
+@media (max-width: 960px) {
+.lazy_sign_in_login-sidebar {
+	width: 250px;
+}
+.lazy_sign_in_login-content {
+	width: calc(100% - 250px);
+}
+.lazy_sign_in_login-sidebar ul li a {
+	padding-left: 30px;
+}
+.lazy_sign_in_login-logo {
+	padding: 30px;
+}
+}
+
+@media (max-width: 767px) {
+.lazy_sign_in_login-sidebar {
+	min-height: inherit;
+	height: auto;
+	max-height: inherit;
+	width: 80px;
+}
+.lazy_sign_in_login-content {
+	width: calc(100% - 80px);
+	min-height: inherit;
+	height: auto;
+	max-height: inherit;
+}
+.lazy_sign_in_login-sidebar ul li a {
+	font-size: 0 !important;
+}
+.lazy_sign_in_login-sidebar ul li a i {
+	font-size: 22px !important;
+}
+.lazy_sign_in_login-logo {
+	padding: 10px 10px 30px 10px;
+}
+.logo-large {
+	display: none;
+}
+.logo-sm {
+	display: block;
+}
+}
+
+@media (max-width: 480px) {
+.lazy_sign_in_login-sidebar {
+	min-height: inherit;
+	height: auto;
+	max-height: inherit;
+	width: 100%;
+	float: none;
+}
+.lazy_sign_in_login-sidebar ul li {
+	float: left;
+}
+.lazy_sign_in_login-content {
+	width: 100%;
+	float: none;
+	min-height: inherit;
+	height: auto;
+	max-height: inherit;
+}
+.lazy_sign_in_login-sidebar ul li a {
+	padding: 20px;
+}
+.lazy_sign_in_login-content-form .floating-label label {
+	font-size: 13px;
+}
+.logo-large {
+	display: block;
+}
+.logo-sm {
+	display: none;
+}
+}

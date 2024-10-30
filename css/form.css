@@ -1,0 +1,203 @@
+.ajax-domain-img {
+	display: none;
+}
+div.success {
+	color: green;
+}
+.lazy-sign-in-signup {
+	max-width: 512px;
+	width: 100%;
+	margin: 0 auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	padding: 30px 30px 1px 30px;
+	background: url(../images/signup-border.jpg) repeat-x top left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+.clearfix {
+	clear: both;
+}
+.lazy-sign-in-signup a {
+	outline: none;
+}
+a.remove_field:focus{
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+}
+div.ls-error {
+	position: absolute;
+	left: 0;
+	bottom: -25px;
+	font-size: 14px;
+	color: #ff0000;
+}
+div.error {
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: #ff0000;
+}
+.lazy-sign-in-signup .input-group {
+	display: block !important;
+	margin-bottom: 40px !important;
+	position: relative;
+}
+.lazy-sign-in-signup h3 {
+	margin: 0 0 30px 0 !important;
+	font-size: 26px;
+	color: #252525;
+	text-align: center;
+	font-weight: normal;
+}
+.lazy-sign-in-signup .floating-label label {
+	color: #6c6c6c;
+	font-size: 16px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 5px;
+	top: 10px;
+	transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+}
+.lazy-sign-in-signup input.signup_submit, .lazy-sign-in-signup input.login_submit {
+	height: 46px !important;
+	background: #fd600e !important;
+	font-size: 18px !important;
+	font-weight: 700 !important;
+	color: #fff !important;
+	text-transform: uppercase !important;
+	cursor: pointer !important;
+	padding: 0 20px !important;
+	float: right !important;
+	border: 0 !important;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.lazy-sign-in-signup input.signup_submit:hover, .lazy-sign-in-signup input.login_submit:hover {
+	background: #e36009 !important;
+}
+.lost_password {
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+	border-top: #c1c1c1 solid 1px;
+	margin-left: -30px;
+	margin-right: -30px;
+}
+.lost_password a {
+	font-size: 14px;
+	color: #333333;
+	background: #f7f7f7;
+	padding: 25px 10px;
+	text-align: center;
+	display: block;
+	border: 0 !important;
+}
+.remember-me {
+	width: 40%;
+	float: left;
+	font-size: 14px;
+	color: #666666;
+	padding-top: 10px;
+}
+.ls-login {
+	width: 60%;
+	float: right;
+	text-align: right;
+}
+.lazy-sign-in-signup input {
+	background: none;
+	border:0;
+	border-bottom: solid 2px #e9e9e9;
+	color: #333;
+	padding: 15px 0 5px !important;
+	font-size: 18px;
+	width: 100%;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+.lazy-sign-in-signup input:focus, .lazy-sign-in-signup input:active {
+	outline: none;
+}
+.lazy-sign-in-signup input:focus, .lazy-sign-in-signup textarea:focus {
+	border:0;
+	border-bottom: solid 2px #fd600e;
+}
+.lazy-sign-in-signup input[type="submit"]:active {
+	color: white;
+	background: #fd600e;
+}
+.lazy-sign-in-signup .input-group {
+	display: block;
+	position: relative;
+}
+.lazy-sign-in-signup .input-group.floating label {
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-size: 18px;
+	color: #999;
+	pointer-events: none;
+	-webkit-transition: all 0.15s ease-out 0s;
+	transition: all 0.15s ease-out 0s;
+}
+.lazy-sign-in-signup .input-group.floating input:focus + label, .lazy-sign-in-signup .input-group.floating input.has-value + label {
+	top: 0px;
+	font-size: 12px;
+	color: #aaa;
+}
+.lazy-sign-in-signup .input-group label {
+	padding-top: 0px;
+}
+.lazy-sign-in-signup input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	border: #e9e9e9 solid 2px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: 5px;
+	float:left;
+}
+.lazy-sign-in-signup input[type=checkbox]:checked {
+	border: #fd600e solid 2px !important;
+}
+.lazy-sign-in-signup input[type=checkbox]:checked:before {
+	color: #fd600e !important;
+}
+.lazy-sign-in-signup input:-webkit-autofill{
+	background:none !important;
+}
+.lazy-sign-in-already-account{
+	text-align:center;
+	font-size:16px;
+	color:#333333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top:40px;
+}
+.lazy-sign-in-already-account a{
+	font-size:16px;
+	color:#fd6b0a;
+	font-weight:700;
+	text-decoration:none;
+	border-bottom:0 !important;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.lazy-sign-in-already-account a:hover{
+	color:#e36009;
+}

@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-12 09:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Language: gu\n"
+"Project-Id-Version: Plugins - lazy-sign-in - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-12 06:57+0000\n"
+"Last-Translator: admin <jamesgardiner134@gmail.com>\n"
+"Language-Team: Gujarati"
+
+#: lazy-sign-in.php:24 lazy-sign-in.php:24
+msgid "Lazy Sign In"
+msgstr "લેઝી સાઇન ઇન"
+
+#: login_form.php:32
+msgid "Username or email address*"
+msgstr "વપરાશકર્તા નું નામ અથવા ઇમેઇલ સરનામું*"
+
+#: login_form.php:36 signup_form.php:41
+msgid "Password*"
+msgstr "પાસવર્ડ *"
+
+#: login_form.php:41
+msgid "Remember me"
+msgstr "મને યાદ રાખો"
+
+#: login_form.php:44
+msgid "Login"
+msgstr "પ્રવેશ"
+
+#: login_form.php:53
+msgid "Lost your password?"
+msgstr "તમે પાસવર્ડ ભૂલી ગયા છો?"
+
+#: login_form.php:59
+msgid "You are logged in."
+msgstr "તમે પ્રવેશ થયા છો."
+
+#: signup_form.php:31
+msgid "Username*"
+msgstr "વપરાશકર્તા નું નામ*"
+
+#: signup_form.php:36
+msgid "Email address*"
+msgstr "ઈ - મેઈલ નું સરનામું*"
+
+#: signup_form.php:45
+msgid "Repeat Password*"
+msgstr "પાસવર્ડ નું પુનરાવર્તન કરો*"
+
+#: signup_form.php:76 signup_form.php:78
+msgid "signup"
+msgstr "સાઇન અપ"
+
+#: admin/form.php:106
+msgid "Login Settings"
+msgstr "પ્રવેશ સેટિંગ્સ"
+
+#: admin/form.php:107
+msgid "Sign up settings"
+msgstr "સાઇન અપ સેટિંગ્સ"
+
+#: admin/form.php:114
+msgid "Log In Form Settings"
+msgstr "પ્રવેશ ફોર્મ સેટિંગ્સ"
+
+#: admin/form.php:119 admin/form.php:142
+msgid "Page Heading"
+msgstr "પેજ  શીર્ષક"
+
+#: admin/form.php:123 admin/form.php:146
+msgid "Redirection link after success"
+msgstr "સફળતા પછી પુનઃસૂચના લિંક"
+
+#: admin/form.php:129 admin/form.php:234
+msgid "Save Settings"
+msgstr "સેટિંગ્સ સાચવો"
+
+#: admin/form.php:137
+msgid "Sign Up Form Fields"
+msgstr "સાઇન અપ ફોર્મ ક્ષેત્ર"
+
+#: admin/form.php:153
+msgid "Login Page Link"
+msgstr "પ્રવેશ પેજ  લિંક"
+
+#: admin/form.php:160
+msgid "Assign Role"
+msgstr "ભૂમિકા સોંપો"
+
+#: admin/form.php:168
+msgid "Auto generate username"
+msgstr "ઓટો વપરાશકર્તા નું નામ બનાવો"
+
+#: admin/form.php:174
+msgid "Auto generate password"
+msgstr "ઓટો પાસવર્ડ બનાવો"
+
+#: admin/form.php:177
+msgid ""
+"Password will contain special characters like !@#$%^&*()-_ []{}<>~`+=,.;:/?|"
+msgstr ""
+"પાસવર્ડમાં આ રીતે વિશિષ્ટ અક્ષરો હશે !@ # $% ^ & * () -_ [] {} <> ~ `= =.;: "
+"/? |"
+
+#: admin/form.php:180
+msgid "Add new text field"
+msgstr "નવું ટેક્સ્ટ ક્ષેત્ર ઉમેરો"
+
+#: admin/form.php:213
+msgid "Field name"
+msgstr "ક્ષેત્ર નામ"
+
+#: admin/form.php:219
+msgid "Require field"
+msgstr "જરૂરી ક્ષેત્ર"
+
+#: admin/form.php:225
+msgid "Unique field"
+msgstr "અનન્ય ક્ષેત્ર"
+
+#: admin/form.php:230
+msgid "Add"
+msgstr "ઉમેરો"
+
+#. Name of the plugin
+msgid "Lazy SIGN IN"
+msgstr "લેઝી સાઇન ઇન"
+
+#. Description of the plugin
+msgid ""
+"LAZY SING-IN lets you easily create a fully customizable AJX powered "
+"responsive login and sign-up form for your website."
+msgstr ""
+"લેઝી સાઇન ઇન તમને સરળતાથી તમારી વેબસાઇટ માટે સંપૂર્ણપણે વૈવિધ્યપૂર્ણ AJAX "
+"સંચાલિત પ્રતિભાવ લૉગિન અને સાઇન-અપ ફોર્મ બનાવી દે છે."
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/lazy-sign-in/"
+msgstr "https://wordpress.org/plugins/lazy-sign-in/"
+
+#. Author of the plugin
+msgid "KrishaWeb PVT LTD"
+msgstr "ક્રિશા વેબ પ્રાઇવેટ લિમિટેડ"
+
+#. Author URI of the plugin
+msgid "http://www.krishaweb.com"
+msgstr "http://www.krishaweb.com"
